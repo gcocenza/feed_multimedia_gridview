@@ -1,12 +1,11 @@
 library feed_multimedia_gridview;
 
+import 'package:feed_multimedia_gridview/src/smart_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
-// import 'package:newsfeed_multiple_imageview/src/smart_image.dart';
-
 import 'package:feed_multimedia_gridview/src/multiple_image_view.dart';
 
-class FeedMultipleImageView extends StatelessWidget {
+class FeedMultimediaGridview extends StatelessWidget {
   final List<String> imageUrls;
   final List<String>? videoUrls;
   final double marginLeft;
@@ -19,8 +18,8 @@ class FeedMultipleImageView extends StatelessWidget {
   final Radius? bottomLeft;
   final Radius? bottomRight;
   final BorderRadius? borderRadius;
-  const FeedMultipleImageView({
-    Key? key,
+  const FeedMultimediaGridview({
+    super.key,
     this.marginLeft = 0,
     this.marginTop = 0,
     this.marginRight = 0,
@@ -32,7 +31,7 @@ class FeedMultipleImageView extends StatelessWidget {
     this.bottomLeft,
     this.bottomRight,
     this.borderRadius,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -10,7 +10,7 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
-  newsfeed_multiple_imageview:
+  feed_multimedia_gridview:
     path: ../
 
 dev_dependencies:

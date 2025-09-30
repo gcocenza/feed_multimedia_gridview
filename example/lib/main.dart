@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:newsfeed_multiple_imageview/newsfeed_multiple_imageview.dart';
+import 'package:feed_multimedia_gridview/feed_multimedia_gridview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Newsfeed Multiple ImagesView',
+      title: 'Feed Multimedia Gridview',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -56,7 +56,7 @@ class _DemoAppState extends State<DemoApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: FeedMultipleImageView(
+        child: FeedMultimediaGridview(
           imageUrls: _imageUrls,
           videoUrls: _videoUrls,
           marginLeft: 10.0,

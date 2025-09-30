@@ -11,9 +11,13 @@ class SmartImage extends StatelessWidget {
   final bool isPost;
   final double? radius;
 
-  const SmartImage(this.src,
-      {Key? key, this.fit, this.isPost = false, this.radius})
-      : super(key: key);
+  const SmartImage(
+    this.src, {
+    super.key,
+    this.fit,
+    this.isPost = false,
+    this.radius,
+  });
 
   bool networkImage() => src.startsWith('https');
   //bool base64() => src.contains('[]');
@@ -22,37 +26,34 @@ class SmartImage extends StatelessWidget {
   Widget build(BuildContext context) {
     return networkImage()
         ? FadeInImage.memoryNetwork(
-            placeholder: kTransparentImage,
-            image: src,
-            fit: fit,
-            imageErrorBuilder: (_, e, a) {
-              return Container(
-                alignment: Alignment.center,
-                child: const Text(
-                  "Error. Please check your internet connection",
-                  style: TextStyle(
-                    fontSize: 17,
-                    fontWeight: FontWeight.bold,
-                    fontFamily: 'Nunito',
-                    color: Colors.black,
-                  ),
-                  textAlign: TextAlign.center,
+          placeholder: kTransparentImage,
+          image: src,
+          fit: fit,
+          imageErrorBuilder: (_, e, a) {
+            return Container(
+              alignment: Alignment.center,
+              child: const Text(
+                "Error. Please check your internet connection",
+                style: TextStyle(
+                  fontSize: 17,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Nunito',
+                  color: Colors.black,
                 ),
-              );
-            },
-          )
+                textAlign: TextAlign.center,
+              ),
+            );
+          },
+        )
         : isPost
-            ? Image.file(
-                File(src),
-                fit: fit,
-              )
-            : CircleAvatar(
-                radius: radius,
-                backgroundImage: MemoryImage(
-                  imageDecoder(src),
-                  //fit: fit,
-                ),
-              );
+        ? Image.file(File(src), fit: fit)
+        : CircleAvatar(
+          radius: radius,
+          backgroundImage: MemoryImage(
+            imageDecoder(src),
+            //fit: fit,
+          ),
+        );
   }
 
   Uint8List imageDecoder(String image) {

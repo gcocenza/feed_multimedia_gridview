@@ -12,7 +12,7 @@ class MultipleImageView extends StatelessWidget {
   final BorderRadius? borderRadius;
 
   const MultipleImageView({
-    Key? key,
+    super.key,
     required this.imageUrls,
     this.videoUrls,
     this.topLeft,
@@ -20,7 +20,7 @@ class MultipleImageView extends StatelessWidget {
     this.bottomLeft,
     this.bottomRight,
     this.borderRadius,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

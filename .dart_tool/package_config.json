@@ -53,7 +53,7 @@
       "name": "flutter",
       "rootUri": "file:///Users/gcocenza/Developer/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "3.7"
+      "languageVersion": "3.8"
     },
     {
       "name": "flutter_image_slideshow",
@@ -63,45 +63,45 @@
     },
     {
       "name": "flutter_lints",
-      "rootUri": "file:///Users/gcocenza/.pub-cache/hosted/pub.dev/flutter_lints-2.0.3",
+      "rootUri": "file:///Users/gcocenza/.pub-cache/hosted/pub.dev/flutter_lints-6.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.8"
     },
     {
       "name": "flutter_test",
       "rootUri": "file:///Users/gcocenza/Developer/flutter/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "3.7"
+      "languageVersion": "3.8"
     },
     {
       "name": "flutter_web_plugins",
       "rootUri": "file:///Users/gcocenza/Developer/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
-      "languageVersion": "3.7"
+      "languageVersion": "3.8"
     },
     {
       "name": "leak_tracker",
-      "rootUri": "file:///Users/gcocenza/.pub-cache/hosted/pub.dev/leak_tracker-10.0.9",
+      "rootUri": "file:///Users/gcocenza/.pub-cache/hosted/pub.dev/leak_tracker-11.0.2",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "leak_tracker_flutter_testing",
-      "rootUri": "file:///Users/gcocenza/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.9",
+      "rootUri": "file:///Users/gcocenza/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.10",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "leak_tracker_testing",
-      "rootUri": "file:///Users/gcocenza/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
+      "rootUri": "file:///Users/gcocenza/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.2",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "lints",
-      "rootUri": "file:///Users/gcocenza/.pub-cache/hosted/pub.dev/lints-2.1.1",
+      "rootUri": "file:///Users/gcocenza/.pub-cache/hosted/pub.dev/lints-6.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.8"
     },
     {
       "name": "matcher",
@@ -137,7 +137,7 @@
       "name": "sky_engine",
       "rootUri": "file:///Users/gcocenza/Developer/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
-      "languageVersion": "3.7"
+      "languageVersion": "3.8"
     },
     {
       "name": "source_span",
@@ -171,7 +171,7 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/gcocenza/.pub-cache/hosted/pub.dev/test_api-0.7.4",
+      "rootUri": "file:///Users/gcocenza/.pub-cache/hosted/pub.dev/test_api-0.7.6",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
@@ -183,9 +183,9 @@
     },
     {
       "name": "vector_math",
-      "rootUri": "file:///Users/gcocenza/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
+      "rootUri": "file:///Users/gcocenza/.pub-cache/hosted/pub.dev/vector_math-2.2.0",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.1"
     },
     {
       "name": "video_player_platform_interface",
@@ -209,12 +209,12 @@
       "name": "feed_multimedia_gridview",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.7"
     }
   ],
   "generator": "pub",
-  "generatorVersion": "3.8.1",
+  "generatorVersion": "3.9.2",
   "flutterRoot": "file:///Users/gcocenza/Developer/flutter",
-  "flutterVersion": "3.32.2",
+  "flutterVersion": "3.35.5",
   "pubCache": "file:///Users/gcocenza/.pub-cache"
 }
